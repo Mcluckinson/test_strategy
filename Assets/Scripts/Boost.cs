@@ -13,7 +13,7 @@ public class Boost : MonoBehaviour
         Debug.Log("Ok");
         if (_boost == false)
         {
-            speed = 9999;
+            speed = 120001;
             Time.timeScale = 100;
             month /= 5000;
             _boost = true;
