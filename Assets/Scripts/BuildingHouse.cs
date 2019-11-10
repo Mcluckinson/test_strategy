@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BuildingHouse : MonoBehaviour
 {
+    public GameObject boost;
     public Animator animator;
     public int month;
     private float tim;
@@ -15,13 +16,14 @@ public class BuildingHouse : MonoBehaviour
 
     void Update()
     {
-        if (month * 30 * 24 * 60 * 60 / 4 < Time.fixedTime - tim)
+        //month += boost.GetComponent<Boost>().month;
+        if (month * boost.GetComponent<Boost>().month / 4 < Time.fixedTime - tim)
             animator.SetBool("house1", true);
-        if (month * 30 * 24 * 60 * 60 / 3 < Time.fixedTime - tim)
+        if (month * boost.GetComponent<Boost>().month / 3 < Time.fixedTime - tim)
             animator.SetBool("house2", true);
-        if (month * 30 * 24 * 60 * 60 / 2 < Time.fixedTime - tim)
+        if (month * boost.GetComponent<Boost>().month / 2 < Time.fixedTime - tim)
             animator.SetBool("house3", true);
-        if (month * 30 * 24 * 60 * 60 < Time.fixedTime - tim)
+        if (month * boost.GetComponent<Boost>().month < Time.fixedTime - tim)
             animator.SetBool("house4", true);
     }
 }
