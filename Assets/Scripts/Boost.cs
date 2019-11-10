@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,7 +15,7 @@ public class Boost : MonoBehaviour
         {
             speed = 120001;
             Time.timeScale = 100;
-            month /= 5000;
+            month /= 5000 * 25;
             _boost = true;
         }
         else
