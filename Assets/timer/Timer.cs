@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,7 +17,7 @@ public class Timer : MonoBehaviour
     private void FixedUpdate()
     { 
         time -= tttt.GetComponent<speed>()._speed;
-        textmesh.text = (time / (30 * 60 * 60 * 24)).ToString() + " month " + ((time / (60 * 60 * 24)) % 30).ToString() + " day\n" + ((time / (60 * 60)) % (24)).ToString() + " hour " + ((time / (60)) % 60).ToString() + " minute\n" + (time % 60).ToString() + " seconds";
+        textmesh.text = ("Time left " + time / (30 * 60 * 60 * 24)).ToString() + " month " + ((time / (60 * 60 * 24)) % 30).ToString() + " day\n" + ((time / (60 * 60)) % (24)).ToString() + " hour " + ((time / (60)) % 60).ToString() + " minute\n" + (time % 60).ToString() + " seconds";
         if (time < 0)
             textmesh.transform.GetComponent<MeshRenderer>().enabled = false;
     }

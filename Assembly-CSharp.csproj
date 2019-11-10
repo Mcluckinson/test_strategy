@@ -60,6 +60,8 @@
      <Compile Include="Assets\Scripts\MenuOpen.cs" />
      <Compile Include="Assets\Scripts\MenuSiteRemember.cs" />
      <Compile Include="Assets\Scripts\Selection.cs" />
+     <Compile Include="Assets\timer\speed.cs" />
+     <Compile Include="Assets\timer\Timer.cs" />
      <Compile Include="Assets\Village\LowPoly\Medieval\Village\Scripts\ContainerOpener.cs" />
      <Compile Include="Assets\Village\LowPoly\Medieval\Village\Scripts\InfiniteRotator.cs" />
      <Compile Include="Assets\Village\LowPoly\Medieval\Village\Scripts\ToggleScript.cs" />
