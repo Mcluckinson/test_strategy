@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1356650755617563862}
-  month: 0
+  month: 12
 --- !u!1 &4916584254953599293
 GameObject:
   m_ObjectHideFlags: 0
