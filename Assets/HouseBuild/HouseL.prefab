@@ -194,7 +194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4916584254930912719}
   - component: {fileID: 1356650755617563862}
-  - component: {fileID: 8253488128195412144}
+  - component: {fileID: 2228962276635988083}
   m_Layer: 0
   m_Name: HouseL
   m_TagString: Untagged
@@ -239,7 +239,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8253488128195412144
+--- !u!114 &2228962276635988083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4916584254930912716}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25b20339e08bf46efa5bb000a7d55df2, type: 3}
+  m_Script: {fileID: 11500000, guid: ccf5a86173f7d4ce49de89a598e0cf4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1356650755617563862}

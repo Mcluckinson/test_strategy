@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,7 +15,7 @@ public class BuildingHouse : MonoBehaviour
 
     void Update()
     {
-        if (month / 4 < Time.fixedTime - tim)
+        if (month * 30 * 24 * 60 * 60 / 4 < Time.fixedTime - tim)
             animator.SetBool("house1", true);
         if (month * 30 * 24 * 60 * 60 / 3 < Time.fixedTime - tim)
             animator.SetBool("house2", true);

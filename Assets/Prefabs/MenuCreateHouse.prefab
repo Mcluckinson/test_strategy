@@ -70,12 +70,12 @@ MonoBehaviour:
   site: {fileID: 0}
   menu:
   - {fileID: 6262534524116679420, guid: fc7f0feee8f4f2d49a7c80d28e5a38fa, type: 3}
-  - {fileID: 7907774561560402860, guid: de8211fb0b8b9974fb2d77029b2fd3c3, type: 3}
-  - {fileID: 8529745466915077535, guid: b0fc7ec818b4f904a9feb7f29dc1b1f2, type: 3}
+  - {fileID: 7907774561560402860, guid: 62e3a0da3ce1a45a09ee49014b3801cb, type: 3}
+  - {fileID: 8529745466915077535, guid: 8c84810ee450945b3af57c6705ec1e5c, type: 3}
   buildings:
-  - {fileID: 3065419785708145056, guid: b2c1d5cc7307741f29782d825b7f3e7e, type: 3}
-  - {fileID: 7907774561560402860, guid: de8211fb0b8b9974fb2d77029b2fd3c3, type: 3}
-  - {fileID: 8529745466915077535, guid: b0fc7ec818b4f904a9feb7f29dc1b1f2, type: 3}
+  - {fileID: 4916584254930912716, guid: 17fa9c02555c94210a6fc02b06c3baa2, type: 3}
+  - {fileID: 6786781519306959993, guid: 1dbf34c88311d40b098ae1702ca0a1dc, type: 3}
+  - {fileID: 87282282808683637, guid: 6366060f6d8d7415285df02e9b510099, type: 3}
 --- !u!1 &2696696384869887455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,7 +1332,7 @@ GameObject:
   - component: {fileID: 2696696385902200049}
   - component: {fileID: 2696696385902200053}
   m_Layer: 5
-  m_Name: CreateHouse
+  m_Name: MenuCreateHouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1598,12 +1598,12 @@ MonoBehaviour:
   site: {fileID: 0}
   menu:
   - {fileID: 6262534524116679420, guid: fc7f0feee8f4f2d49a7c80d28e5a38fa, type: 3}
-  - {fileID: 7907774561560402860, guid: de8211fb0b8b9974fb2d77029b2fd3c3, type: 3}
-  - {fileID: 8529745466915077535, guid: b0fc7ec818b4f904a9feb7f29dc1b1f2, type: 3}
+  - {fileID: 7907774561560402860, guid: 62e3a0da3ce1a45a09ee49014b3801cb, type: 3}
+  - {fileID: 8529745466915077535, guid: 8c84810ee450945b3af57c6705ec1e5c, type: 3}
   buildings:
-  - {fileID: 3065419785708145056, guid: b2c1d5cc7307741f29782d825b7f3e7e, type: 3}
-  - {fileID: 7907774561560402860, guid: de8211fb0b8b9974fb2d77029b2fd3c3, type: 3}
-  - {fileID: 8529745466915077535, guid: b0fc7ec818b4f904a9feb7f29dc1b1f2, type: 3}
+  - {fileID: 4916584254930912716, guid: 17fa9c02555c94210a6fc02b06c3baa2, type: 3}
+  - {fileID: 6786781519306959993, guid: 1dbf34c88311d40b098ae1702ca0a1dc, type: 3}
+  - {fileID: 87282282808683637, guid: 6366060f6d8d7415285df02e9b510099, type: 3}
 --- !u!1 &2696696386335768377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,12 +2402,12 @@ MonoBehaviour:
   site: {fileID: 0}
   menu:
   - {fileID: 6262534524116679420, guid: fc7f0feee8f4f2d49a7c80d28e5a38fa, type: 3}
-  - {fileID: 7907774561560402860, guid: de8211fb0b8b9974fb2d77029b2fd3c3, type: 3}
-  - {fileID: 8529745466915077535, guid: b0fc7ec818b4f904a9feb7f29dc1b1f2, type: 3}
+  - {fileID: 7907774561560402860, guid: 62e3a0da3ce1a45a09ee49014b3801cb, type: 3}
+  - {fileID: 8529745466915077535, guid: 8c84810ee450945b3af57c6705ec1e5c, type: 3}
   buildings:
-  - {fileID: 3065419785708145056, guid: b2c1d5cc7307741f29782d825b7f3e7e, type: 3}
-  - {fileID: 7907774561560402860, guid: de8211fb0b8b9974fb2d77029b2fd3c3, type: 3}
-  - {fileID: 8529745466915077535, guid: b0fc7ec818b4f904a9feb7f29dc1b1f2, type: 3}
+  - {fileID: 4916584254930912716, guid: 17fa9c02555c94210a6fc02b06c3baa2, type: 3}
+  - {fileID: 6786781519306959993, guid: 1dbf34c88311d40b098ae1702ca0a1dc, type: 3}
+  - {fileID: 87282282808683637, guid: 6366060f6d8d7415285df02e9b510099, type: 3}
 --- !u!1 &2696696386872905798
 GameObject:
   m_ObjectHideFlags: 0
